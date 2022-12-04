@@ -1,0 +1,12 @@
+.logo p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  padding-left: 15px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+}

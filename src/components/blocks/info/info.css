@@ -1,0 +1,17 @@
+.info_block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info {
+  width: 50%;
+}
+
+.image {
+  width: 15%;
+}
+
+.image img {
+  width: 150px;
+}

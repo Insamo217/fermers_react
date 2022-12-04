@@ -1,0 +1,17 @@
+.title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 1;
+  padding-bottom: 15px;
+  margin: 15px 0;
+}
+
+.title_cards {
+  font-size: 36px;
+}
+
+.title_card {
+  font-size: 18px;
+  padding-bottom: 5px;
+}

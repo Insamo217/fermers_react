@@ -1,0 +1,12 @@
+.info_container {
+  background-color: #d8ecfe;
+}
+
+p.title.title_cards {
+  text-align: center;
+}
+
+section.main .btn {
+  display: block;
+  margin: auto;
+}
