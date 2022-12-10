@@ -4,23 +4,28 @@ import info_logo from "assets/info.png";
 import Cards from "components/blocks/cards/card";
 import Button from "components/ui/button/button";
 import Title, { TitleSize } from "components/ui/title/title";
-import "./main.css";
+import styled from "styled-components";
 
 export const CardStatus = {
   Natural: "natural",
   Magazine: "magazine",
 };
 
+const Container = styled.div`
+  max-width: 1080px;
+  margin: auto;
+`;
+
 function Main({ items }) {
   return (
     <>
       <section className="main">
         <div className="info_container">
-          <div className="container">
+          <Container>
             <Info image={info_logo} />
-          </div>
+          </Container>
         </div>
-        <div className="container">
+        <Container>
           <Title
             size={TitleSize.CARDS}
             name="Почему фермерские продукты лучше?"
@@ -38,7 +43,7 @@ function Main({ items }) {
             ))}
           </ul>
           <Button name="Купить" />
-        </div>
+        </Container>
       </section>
     </>
   );

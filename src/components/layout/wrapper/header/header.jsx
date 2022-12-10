@@ -1,15 +1,21 @@
 import React from "react";
-import "./header.css";
+import styled from "styled-components";
 import Button from "components/ui/button/button";
 import { Logo } from "components/ui/logo/logo";
+
+const HeaderStyled = styled.header`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+`;
 
 function Header() {
   return (
     <>
-      <header>
+      <HeaderStyled>
         <Logo />
         <Button name="Купить" />
-      </header>
+      </HeaderStyled>
     </>
   );
 }
